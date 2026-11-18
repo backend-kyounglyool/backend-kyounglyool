@@ -1,44 +1,67 @@
 # Hi there, I'm Kyoungryul Park 👋
 
-**Backend Engineer** who thinks deeply and chooses the best solution.
+**Software Engineer** specializing in data pipelines and LLM-based automation.
 
-I'm a backend engineer with 3 years of experience, focused on building scalable and maintainable systems rather than just implementing features. I value long-term architectural decisions over short-term fixes and believe in the power of effective team collaboration.
+I'm a software engineer with 3 years of experience, focused on building scalable and maintainable systems rather than just implementing features. I've redesigned large-scale log data with partitioning for 10x query performance and streamlined data quality pipelines to cut processing delays from 20 minutes to 1 minute.
 
 ## 🛠 Tech Stack
 
-**Backend**  
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+**Languages**  
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-**Infrastructure & Tools**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+**Backend**  
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+**Data / Pipeline**  
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+
+**Database**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+**Infra / DevOps**  
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
 ## 💼 Experience
 
-### Co-Founder & CTO @ LoadIT Cor. (2025.08 ~ Present)
-Building **ILoad** & **QLoad** - Used car export and Trading platform
-- Leading overall project architecture and backend development
-- Implemented payment system with Toss Payments PG
-- Built auto payment cancellation logic using BullMQ
-- Enhanced security with Web ACL and automated vulnerability scanning via GitHub Actions
+### Software Engineer, Data (Intern) @ Daangn (2026.06 ~ Present)
+- Developed an **MCP Tool for LLM-based data quality testing**
+- Improved data pipeline latency from **20 minutes to 1 minute**
+- Built a data mart platform using **Airflow and dbt**
+
+### Co-Founder & Backend Engineer @ LoadIT (2025.07 ~ 2026.06)
+Built **ILoad** & **QLoad** - Used car export and trading platform
+- Designed a distributed TTL timeout system using **Redis BullMQ**
+- Optimized spatial queries using **PostgreSQL Geometry and GiST indexing**
+- Led full backend development and infrastructure deployment
 
 ### Backend Engineer @ Revibio (2023.02 ~ 2025.07)
 Worked on **MemoryWord** project
-- Built production environment handling **1,200 requests per second**
-- Resolved concurrency issues using **Redis distributed locks**
-- Reduced image size by up to **90%** through image resizing optimization
-- Cut **EC2 costs by 50%** through server profiling and optimization
-- Reduced **RDS costs by 75%** via database & query optimization
-- Improved search performance using **Full-Text Search**
-- Implemented **compensating transactions** for microservice data consistency
-- Built large-scale push notification system using async message queues
+- Improved log query performance **10x (1s → 100ms)** via date-based partitioning
+- Implemented **distributed locking** to prevent duplicate reward payments
+- Redesigned transaction flow using the **two-phase commit pattern**
+- Reduced **CPU usage by 20%** through optimization
+- Managed infrastructure supporting **70K DAU** and **1,500 RPS** peak traffic
+
+## 🚀 Projects
+
+### DevTA (2026)
+LLM-powered test code generation CLI combining static analysis with automated unit test creation.
+
+## 👥 Community
+
+- **AWS Cloud Club Speaker** (2025.08 ~ 2026.01)
+- **KDD LAB Intern** (2026.01 ~ 2026.03)
 
 ## 🏆 Certification
 
@@ -46,10 +69,11 @@ Worked on **MemoryWord** project
 
 ## 🎓 Education
 
-- **Inha University** - Computer Science (2021 ~ Present)
+- **Inha University** - Computer Science (2021.03 ~ Present)
 
 ## 📫 Connect with Me
 
+[![Website](https://img.shields.io/badge/Website-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.kyoungryul.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/kyounglyool-park)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:p_yool@naver.com)
 
